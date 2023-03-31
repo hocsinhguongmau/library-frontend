@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'fonts';
+@import 'slick';
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {
+  @apply text-primary hover:text-secondary;
+}
+
+.myTheme {
+  @apply bg-background text-text;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle-animation {
+  @apply relative h-[90px] w-[90px];
+
+  p {
+    @apply absolute top-1/2 left-0 z-10 w-full -translate-y-1/2 text-center text-xs font-bold;
+  }
+  .circle {
+    @apply relative z-0 h-full w-full rounded-full;
+    background: linear-gradient(#9be3ff, #f4b1ea, #f8d46b);
+    animation: loading 2s linear infinite;
+
+    span {
+      @apply absolute h-full w-full rounded-full;
+      background: linear-gradient(#9be3ff, #f4b1ea, #f8d46b);
+
+      &:nth-child(1) {
+        filter: blur(3px);
+      }
+
+      &:nth-child(2) {
+        filter: blur(6px);
+      }
+
+      &:nth-child(3) {
+        filter: blur(8px);
+      }
+
+      &:nth-child(4) {
+        filter: blur(12px);
+      }
+    }
+
+    &:after {
+      content: '';
+      @apply absolute top-0 left-0 right-0 bottom-0 rounded-full border-8 border-white bg-[#030303];
+    }
+  }
+}
+
+.bouncing-loader {
+  @apply flex gap-1 justify-center mt-4;
+  & > div {
+    @apply h-2 w-2 rounded-full bg-primary;
+    animation: bouncing-loader 0.45s infinite alternate;
+    &:nth-child(2) {
+      animation-delay: 0.15s;
+    }
+    &:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+  }
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translateY(-10px);
+  }
+}
+
+.pagination {
+  @apply mt-8 flex justify-center;
+  li {
+    @apply m-0 p-0;
+    &:after {
+      @apply hidden;
+    }
+    a {
+      @apply inline-block px-3 py-2 text-xs transition-colors duration-300 md:text-sm;
+      &:hover {
+        @apply bg-accent text-primary;
+      }
+    }
+    &.selected {
+      a {
+        @apply bg-primary text-white;
+      }
+    }
+  }
+}
+
+select,
+input[type='text'],
+input[type='password'] {
+  @apply border border-primary outline-none focus:border-secondary bg-accent text-text px-2 py-2;
+  &.input-large {
+    @apply px-4 pt-4 pb-3.5;
+  }
+}
+
+.banner {
+  @apply relative;
+  .slick-dots {
+    @apply absolute bottom-6 z-10 w-full mx-auto text-center;
+    li {
+      @apply inline-block mx-2;
+      &:hover,
+      &.slick-active {
+        button {
+          @apply bg-primary;
+        }
+      }
+      button {
+        @apply bg-white text-[0]  cursor-pointer w-4 h-4 rounded-full border border-primary;
+      }
+    }
+  }
+}
+
+section {
+  @apply even:bg-accent py-8;
+  .section-wrapper {
+    @apply max-w-5xl mx-auto;
+  }
+}
+
+.button {
+  @apply capitalize inline-flex px-4 py-2 gap-2 rounded-none self-start border-primary border   hover:border-secondary items-center cursor-pointer relative;
+  svg {
+    @apply text-xl;
+  }
+  &-filled {
+    @apply bg-primary text-white hover:bg-secondary hover:text-white;
+  }
+  &-outlined {
+    @apply text-primary;
+  }
+  &-large {
+    @apply text-xl py-3 px-6 border-2;
+    svg {
+      @apply text-3xl;
+    }
+  }
+  &-secondary {
+    @apply bg-accent border-accent text-primary;
+  }
+}
+
+.bouncing-loader {
+  @apply flex gap-1 justify-center mt-4;
+  & > div {
+    @apply h-2 w-2 rounded-full bg-primary;
+    animation: bouncing-loader 0.45s infinite alternate;
+    &:nth-child(2) {
+      animation-delay: 0.15s;
+    }
+    &:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+  }
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translateY(-10px);
+  }
+}
+
+.nav-link {
+  @apply block font-bold text-center uppercase text-text group-hover:text-primary;
+  &.active {
+    @apply text-secondary;
+  }
+}
+
+.form-row {
+  @apply flex gap-4 mt-4 items-center first-of-type:mt-8;
+  > div {
+    @apply w-full;
+  }
+  label {
+    @apply w-32 leading-4;
+  }
+  select,
+  textarea,
+  input {
+    @apply w-full border bg-transparent border-black;
+  }
+}
+p.error {
+  @apply ml-28 pl-2 mt-2 text-red-500;
+}

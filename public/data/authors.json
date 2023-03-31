@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "picture": "https://picsum.photos/id/1001/200/200.webp",
+    "name": "Louisa Calderon"
+  },
+  {
+    "id": "2",
+    "picture": "https://picsum.photos/id/1002/200/200.webp",
+    "name": "Hampton Kennedy"
+  },
+  {
+    "id": "3",
+    "picture": "https://picsum.photos/id/1003/200/200.webp",
+    "name": "Atkinson Duncan"
+  },
+  {
+    "id": "4",
+    "picture": "https://picsum.photos/id/1004/200/200.webp",
+    "name": "Erica Glover"
+  },
+  {
+    "id": "5",
+    "picture": "https://picsum.photos/id/1005/200/200.webp",
+    "name": "Christian Ramsey"
+  },
+  {
+    "id": "6",
+    "picture": "https://picsum.photos/id/1006/200/200.webp",
+    "name": "Perez Schneider"
+  },
+  {
+    "id": "7",
+    "picture": "https://picsum.photos/id/1007/200/200.webp",
+    "name": "Jewel Anderson"
+  },
+  {
+    "id": "8",
+    "picture": "https://picsum.photos/id/1008/200/200.webp",
+    "name": "Santiago Pitts"
+  },
+  {
+    "id": "9",
+    "picture": "https://picsum.photos/id/1009/200/200.webp",
+    "name": "Barry Frederick"
+  },
+  {
+    "id": "10",
+    "picture": "https://picsum.photos/id/1010/200/200.webp",
+    "name": "Tracy Kirkland"
+  }
+]

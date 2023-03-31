@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "picture": "/assets/images/banner/banner1.jpg",
+    "title": "Banner 1",
+    "url": "/"
+  },
+  {
+    "id": 2,
+    "picture": "/assets/images/banner/banner2.jpg",
+    "title": "Banner 2",
+    "url": "/"
+  },
+  {
+    "id": 3,
+    "picture": "/assets/images/banner/banner3.jpg",
+    "title": "Banner 3",
+    "url": "/"
+  },
+  {
+    "id": 4,
+    "picture": "/assets/images/banner/banner4.jpg",
+    "title": "Banner 4",
+    "url": "/"
+  }
+]

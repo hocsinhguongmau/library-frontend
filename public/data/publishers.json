@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Penguin Random House",
+    "description": "One of the largest book publishers in the world, Penguin Random House publishes a wide range of books across multiple genres, from literary fiction to popular non-fiction."
+  },
+  {
+    "id": "2",
+    "name": "HarperCollins",
+    "description": "A global publisher with a wide range of imprints, HarperCollins publishes books for adults, children, and young adults. Some of its most well-known authors include Neil Gaiman, J.R.R. Tolkien, and J.K. Rowling."
+  },
+  {
+    "id": "3",
+    "name": "Simon & Schuster",
+    "description": "A leading publisher of both fiction and non-fiction books, Simon & Schuster has a long history of publishing bestselling books, including To Kill a Mockingbird by Harper Lee and The Catcher in the Rye by J.D. Salinger."
+  },
+  {
+    "id": "4",
+    "name": "Hachette Book Group",
+    "description": "A division of Hachette Livre, the second-largest book publisher in the world, Hachette Book Group publishes books across multiple genres, including mystery, romance, and science fiction."
+  },
+  {
+    "id": "5",
+    "name": "Macmillan Publishers",
+    "description": "A global publisher with multiple imprints, Macmillan publishes books across a wide range of genres, including children's books, romance, and science fiction."
+  },
+  {
+    "id": "6",
+    "name": "Scholastic Corporation",
+    "description": "The world's largest publisher and distributor of children's books, Scholastic Corporation publishes books for children of all ages, from picture books to young adult novels."
+  },
+  {
+    "id": "7",
+    "name": "Bloomsbury Publishing",
+    "description": "A leading independent publisher with a focus on literary fiction and non-fiction, Bloomsbury Publishing has published books by many notable authors, including J.K. Rowling and Khaled Hosseini."
+  },
+  {
+    "id": "8",
+    "name": "Penguin Group",
+    "description": "An imprint of Penguin Random House, Penguin Group is a well-known publisher of literary fiction and non-fiction, including works by Jane Austen and George Orwell."
+  },
+  {
+    "id": "9",
+    "name": "W.W. Norton & Company",
+    "description": "A publisher of college textbooks and other educational materials, W.W. Norton & Company also publishes general interest books across multiple genres, including history, science, and literature."
+  },
+  {
+    "id": "10",
+    "name": "Random House",
+    "description": "An imprint of Penguin Random House, Random House publishes a wide range of fiction and non-fiction, including books by bestselling authors such as Dan Brown and John Grisham."
+  }
+]
